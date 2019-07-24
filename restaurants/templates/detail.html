@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Detail</title>
+    </head>
+    <body>
+        <ul>
+            <li>{{restaurant.name}}</li>
+            <li>{{restaurant.description}}</li>
+            <li>{{restaurant.opening_time}}</li>
+            <li>{{restaurant.closing_time}}</li>
+        </ul>
+    <hr>
+    <a href="{% url 'restaurant-list' %}">back to home page</a>
+    </body>
+</html>
